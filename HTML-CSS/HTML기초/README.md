@@ -1,5 +1,8 @@
-# TAG
----
+# HTML(Hyper Text Markup Language) <img width="150" height="150" alt="HTML" src="https://user-images.githubusercontent.com/77039437/103877315-39758480-5118-11eb-9e55-047e06458314.png">  
+### 페이지의 구조와 의미를 부여하는 정적 언어로 웹의 구조를 담당
+
+
+# TAG  
 
 ### TAG란 각자의 의미를 가지고 있다  
 ### TAG는 기본적으로 `<TAG>내용</TAG>` 이와 같이 열리고(open) 닫히는(close) 구조를 가지고 있으며 이는 한 쌍이다. 
