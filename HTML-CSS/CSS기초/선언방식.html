@@ -1,0 +1,39 @@
+태그에 직접 작성(인라인)
+
+<div style="color: black;">태그에 직접 작성</div>
+<div style="font-size: large;">태그에 직접 작성</div>
+<div style="background: white;">태그에 직접 작성</div>
+
+------------------------------------------------------
+HTML에 포함하기(내부)
+
+<head>
+    <style>
+        div {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>HTML에 포함하기</div>
+    <div>HTML에 포함하기</div>
+    <div>HTML에 포함하기</div>
+</body>
+
+------------------------------------------------------
+HTML 외부에서 불러오기
+
+<head>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div>HTML 외부에서 불러오기</div>
+</body>
+
+<!-- 
+main.css 
+
+div {
+    color: black;
+}
+-->
