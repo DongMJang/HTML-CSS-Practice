@@ -1,6 +1,6 @@
-# HTML(Hyper Text Markup Language) <img width="150" height="150" alt="HTML" src="https://user-images.githubusercontent.com/77039437/103877315-39758480-5118-11eb-9e55-047e06458314.png">  
+# <img width="150" height="150" alt="HTML" src="https://user-images.githubusercontent.com/77039437/103877315-39758480-5118-11eb-9e55-047e06458314.png">   HTML(Hyper Text Markup Language) 
 ### 페이지의 구조와 의미를 부여하는 정적 언어로 웹의 구조를 담당
-
+---
 
 # TAG  
 
