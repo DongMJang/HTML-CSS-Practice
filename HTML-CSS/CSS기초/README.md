@@ -1,4 +1,4 @@
-# <img width="50" height="40" alt="CSS" src="https://user-images.githubusercontent.com/77039437/103879946-d554bf80-511b-11eb-94f4-811f92b01245.png"> CSS(Cascading Style Sheets)
+# CSS(Cascading Style Sheets)<img width="70" height="60" alt="CSS" src="https://user-images.githubusercontent.com/77039437/103879946-d554bf80-511b-11eb-94f4-811f92b01245.png">  
 ### 콘텐츠 구조를 꾸며주는 정적 언어로 시각적인 표현을 담당
 ---
 # CSS는 선택자, 속성, 값이 있다
