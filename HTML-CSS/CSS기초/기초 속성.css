@@ -1,0 +1,10 @@
+div{
+    color: black; /* 글자색: 검정 */
+    background: white; /* 배경색: 흰색 */
+    font-size: 33px; /* 폰트 사이즈: 33px */
+    width: 200px; /* 가로 너비: 200px */
+    height: 350px; /* 세로 너비: 350px */
+    margin: 30px; /* 바깥 여백: 30px (top, right, bottom, left 각각 적용가능)*/
+    padding: 15px 20px; /* 안쪽 여백: 위아래15px 좌우20px(top, right, bottom, left 각각 적용가능) */
+    position: absolute; /* 위치: 부모 요소 기준 */
+}
