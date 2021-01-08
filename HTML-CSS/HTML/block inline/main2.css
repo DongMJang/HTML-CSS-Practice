@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background: red;
+    height: 50;
+}
+
+span {
+    background: blue;
+    height: 50;
+}
