@@ -87,16 +87,25 @@ display: block
 
 # `<h1>`
 
+<img width="306" alt="GitHub-h1~" src="https://user-images.githubusercontent.com/77039437/104170879-2975e180-5445-11eb-9d9e-0b9ecefecdd3.png">
+
+
 # `<main>`
  >문서의 **핵심 주제**
  애플리케이션의 **핵심 기능성**에 대해 부연 또는 직접적으로 연관된 콘텐츠
  한 문서에 하나의 `<main>` 요소만 포함 가능
  display: block (Internet Explorer)에서 호환 불가
 
+ <img width="1361" alt="GitHub-main" src="https://user-images.githubusercontent.com/77039437/104170302-41993100-5444-11eb-9d08-dce512105cca.png">
+
+
 # `<article>`
 >**독립적**으로 구분되거나 재사용 가능한 영역을 설정
 글, 매거진/신문의 기사, 블로그 글 등
 display: block
+
+<img width="302" alt="GitHub-article" src="https://user-images.githubusercontent.com/77039437/104171115-87a2c480-5445-11eb-868e-3a726f35df44.png">
+
 
 # `<section>`
 >문서의 **일반적인** 영역을 설정 (제목을 가지고 있는)
@@ -108,4 +117,9 @@ display: block
 **광고**나 **기타 링크** 등의 사이드바를 설정(콜아웃 박스)
 display: block
 
-# `<aside>`
+# `<nav>`
+>다른 페이지 링크를 제공하는 영역을 설정
+메뉴, 목차, 색인
+display: block
+
+<img width="1177" alt="GitHub-nav" src="https://user-images.githubusercontent.com/77039437/104171890-b4a3a700-5446-11eb-93df-07a6829ae22c.png">
