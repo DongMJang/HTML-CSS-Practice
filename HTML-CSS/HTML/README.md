@@ -123,3 +123,12 @@ display: block
 display: block
 
 <img width="1177" alt="GitHub-nav" src="https://user-images.githubusercontent.com/77039437/104171890-b4a3a700-5446-11eb-93df-07a6829ae22c.png">
+
+# `<address>`
+> `<body>,<aritcle>,<footer>` 등에서 연락처 정보를 제공하기 위해 포함하여 사용
+(메일 프로그램 열림)
+display: block
+
+# `<div>`
+>의미가 없는 콘텐츠 영역을 설정
+display: block
