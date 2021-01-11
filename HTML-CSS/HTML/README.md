@@ -66,3 +66,46 @@ type | MIME 타입 | text/css
 --- | --- | --- | ---
 href | 기준 URL | URL
 target | A 요소처럼 target 속성을 사용하는 요소의 기본값 | _self, _blank | _self
+---
+# 콘텐츠 구분  
+
+# `<header>`
+>문서의 **header**를 설정
+**소개 및 탐색**에 도움을 주는 콘텐츠 (로고, 제목, 검색 등)
+display: block
+
+![image](https://user-images.githubusercontent.com/77039437/104091344-230a2d00-52c0-11eb-9fc4-2808378a3ba6.png)
+
+
+
+# `<footer>`
+>문서의 **footer**를 설정
+가장 가까운 **구획 콘텐츠**나 **구획 루트** (구획의 작성자, 저작권 정보, 관련 문서)
+display: block
+
+![image](https://user-images.githubusercontent.com/77039437/104091377-5f3d8d80-52c0-11eb-8288-3bf2f4facefd.png)
+
+# `<h1>`
+
+# `<main>`
+ >문서의 **핵심 주제**
+ 애플리케이션의 **핵심 기능성**에 대해 부연 또는 직접적으로 연관된 콘텐츠
+ 한 문서에 하나의 `<main>` 요소만 포함 가능
+ display: block (Internet Explorer)에서 호환 불가
+
+# `<article>`
+>**독립적**으로 구분되거나 재사용 가능한 영역을 설정
+글, 매거진/신문의 기사, 블로그 글 등
+display: block
+
+# `<section>`
+>문서의 **일반적인** 영역을 설정 (제목을 가지고 있는)
+일반적으로 **`<h1>`~`<h6>`** 를 포함하여 식별
+display: block
+
+# `<aside>`
+>문서의 **별도** 콘텐츠를 설정
+**광고**나 **기타 링크** 등의 사이드바를 설정(콜아웃 박스)
+display: block
+
+# `<aside>`
