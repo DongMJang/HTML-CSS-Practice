@@ -1,0 +1,66 @@
+header {
+    background: gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+header nav {
+
+}
+
+header nav ul {
+    display: flex; /* 수평 정렬*/
+}
+
+header nav ul li {
+    list-style: none; /* 리스트 아이템들의 스타일을 사용 안함 */
+    margin: 10px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 70%;
+    background: gray;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box; /* padding 사용시 늘어남 방지 */
+}
+
+section h1{
+
+}
+
+article {
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+article h2 {
+
+}
+
+aside {
+    width: 30%;
+    background: gray;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* padding 사용시 늘어남 방지 */
+}
+
+footer {
+    background: gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+footer address{
+
+}
+
+footer address a {
+    display: block; /* a태그는 inline 이므로 강제로 변형 */
+}

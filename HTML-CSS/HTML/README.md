@@ -86,6 +86,10 @@ display: block
 ![image](https://user-images.githubusercontent.com/77039437/104091377-5f3d8d80-52c0-11eb-8288-3bf2f4facefd.png)
 
 # `<h1>`
+>문서나 구분된 영역의 제목을 설정
+숫자가 낮을수록 중요한 제목
+display: block
+
 
 <img width="306" alt="GitHub-h1~" src="https://user-images.githubusercontent.com/77039437/104170879-2975e180-5445-11eb-9d9e-0b9ecefecdd3.png">
 
@@ -132,3 +136,16 @@ display: block
 # `<div>`
 >의미가 없는 콘텐츠 영역을 설정
 display: block
+
+---
+# 문자 콘텐츠
+
+# `<Ol>, <ul>, <li>`
+* `<li>` : 각 항목 (List Item)
+* `<ol>` : 정렬된 목록 (Ordered List)
+* `<ul>` : 정렬되지 않은 목록 (Unordered List)
+
+>`<ol>과<ul>`은 자식으로 `<li>`만 포함 가능
+`<li>`는 단독 사용 불가
+`<ol>`,`<ul>` display: block
+`<li>` display: lit-item
