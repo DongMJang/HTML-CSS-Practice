@@ -149,3 +149,86 @@ display: block
 `<li>`는 단독 사용 불가
 `<ol>`,`<ul>` display: block
 `<li>` display: lit-item
+
+# `<dl>, <dt>, <dd>`
+* `<dl>` : 용어 (Description list)
+* `<dt>` : 정의 (Definition Details)
+* `<dd>` : 쌍들의 영역 (Definition Term)
+
+> `<dl>`은 `<dd>, <dt>`만을 포함
+display: block
+
+# `<p>`
+>하나의 문장, 문단, 단락을 설정 (Paragraph)
+display: block
+
+# `<hr/>`
+>문단의 분리를 위해 설정 (Horizontal Rule)  
+시각적이 아닌 의미적 관점으로 사용
+display: block
+
+# `<pre>`
+> 서식이 미리 지정된 텍스트를 설정 (Preformatted Text)
+텍스트의 공백과 줄바꿈을 유지하여 표시 가능
+글꼴 기본값 - Moonospace
+display: block
+
+# `<blockquote>`
+>일반적인 인용문을 설정 (Block Quotation)
+display: block
+
+속성 | 의미 | 값
+--- | --- | ---
+cite | 인용된 정보의 URL | URL 
+
+
+---
+
+# 인라인 텍스트
+
+# `<a>`
+>다른 페이지, 같은 페이지(#) 위치 등 현재 문서를 제외한 다른 URL로 연결할 수 있는 하이퍼링크를 설정 (Anchor, 외부로 내보내기)
+**버튼 형태**로 많이 쓰임 (block으로 변경해서)
+display: inline
+
+속성 | 의미 | 값 | 기본값 | 특징
+--- | --- | --- | --- | ---
+download | 이 요소가 리소스를 다운로드하는 용도로 사용됨을 의미 | 불린(참, 거짓)
+*href | 링크 URL | URL | | 생략 가능
+hreflang | 링크 URL(페이지)언어 | ko, en, ...
+rel | 현재 문서와 링크 URL의 관계 | license, prev, next, ...
+*target | 링크 URL의 표시(브라우저 탭) 위치 | _self, _blank(새창) | _self
+type | 링크 URL의 MIME 타입 | text/html ...
+
+# `<abbr>`
+> 약어를 지정 (Abbereviation)
+보통 title 속성을 사용하여 전체 글자나 설명을 제공
+
+# `<b>`
+>문체가 다른 글자의 **범위**를 설정 (Bring Attention)
+특별한 의미를 가지지 않고 읽기 흐름에 도움을 줌
+기본적으로 글자가 **두껍게**(Bold) 표시됨
+display: inline
+
+# `<mark>`
+>사용자의 관심을 끌기 위해 **하이라이팅**할 때 사용 (Mark Text)
+형광펜과 같은 의미 배경이 **노란색**을 표시됨
+display: inline
+
+# `<em>`
+>단순한 **의미 강조**를 표시 (Emphasis)
+중첩 가능하고 중첩될수록 강조 의미가 강해짐
+정보통신보조기기 등에서 구두 강조로 발음됨
+기본값: 이탤릭체 
+display: inline
+
+# `<strong>`
+>**의미의 중요성**을 나타내기 위해 사용 (Strong Importance)
+기본적으로 글자가 **두껍게**(Bold) 표시됨
+display: inline
+
+# `<i>`
+> `<em>`, `<strong>`, `<mark>`, `<cite>`, `<dfn>` 등에서 적합한 의미가 아닌 경우 사용
+평범한 글자와 구분 아이콘이나 특수기호 같은
+기본값: 이탤릭체 
+display: inline
