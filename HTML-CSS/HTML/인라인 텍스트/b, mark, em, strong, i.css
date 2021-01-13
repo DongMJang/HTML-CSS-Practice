@@ -1,0 +1,9 @@
+b {
+    /* font-weight: normal;  글자 굵기 */
+    /* font-style: normal; 글꼴 */
+}
+
+em {
+    font-weight: bold;
+    color: red;
+}

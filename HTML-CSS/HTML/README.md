@@ -232,3 +232,7 @@ display: inline
 평범한 글자와 구분 아이콘이나 특수기호 같은
 기본값: 이탤릭체 
 display: inline
+
+# `<dfn>`
+>용어를 정의할 때 사용 정의 인스턴스
+display: inline
