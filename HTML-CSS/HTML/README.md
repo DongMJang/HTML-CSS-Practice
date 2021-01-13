@@ -254,3 +254,15 @@ display: inline
 CSS 사용 불가시에만 사용 권장
 display: inline
 
+# `<code>`
+>컴퓨터 코드 범위를 설정 (Inline Code)
+기본값: Monospace
+display: inline
+
+# `<kbd>`
+>키보드에서 사용자 입력을 나타내는 텍스트 범위를 설정 (Keyboard Input)
+display: inline 
+
+# `<sup>,<sub>`
+>`<sup>`(위 첨자)와 `<sub>`(아래 첨자)를 설정 (Superscripted text, Subscript text)
+display: inline
