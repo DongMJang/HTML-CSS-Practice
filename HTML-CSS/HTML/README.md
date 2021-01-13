@@ -234,5 +234,23 @@ display: inline
 display: inline
 
 # `<dfn>`
->용어를 정의할 때 사용 정의 인스턴스
+>용어를 정의할 때 사용 정의 인스턴스 (Definition)
 display: inline
+
+# `<cite>`
+>창작물에 대한 참조를 설정
+논문 책 영화 게임 등의 제목
+기본값: 이탤릭체
+display: inline
+
+# `<q>`
+>짧은 인용문을 설정 (Inline Quotation)
+긴 인용문을 설정할 경우`<blockquote>`를 사용
+display: inline
+
+# `<u>`
+>밑줄이 있는 글자를 설정 (Underline)
+그저 꾸미는 용도의 요소로 사용 
+CSS 사용 불가시에만 사용 권장
+display: inline
+
