@@ -266,3 +266,41 @@ display: inline
 # `<sup>,<sub>`
 >`<sup>`(위 첨자)와 `<sub>`(아래 첨자)를 설정 (Superscripted text, Subscript text)
 display: inline
+
+# `<time>`
+>날짜나 시간을 나타내기 위한 목적으로 사용
+datetime: YYYY-MM-DD
+display: inline, IE 지원 불가
+
+속성 | 의미 | 값 
+--- | --- | ---
+datetime | 유효한 날짜 문자 | Date
+
+# `<span>`
+>본질적으로 아무것도 나타내지 않는 콘텐츠 영역을 설정
+display: inline
+
+# `<br/>`
+>줄바꿈을 설정
+display: inline
+
+---
+# 수정
+
+# `<del>`
+>삭제된(변경된) 텍스트의 범위를 지정
+display: inline
+
+속성 | 의미 | 값 
+--- | --- | ---
+cite | 변경을 설명하는 리소스의 URL | URL
+datetime | 변경이 일어난 유요한 날짜 문자 | Date
+
+# `<ins>`
+>새로 추가된(변경된) 텍스트의 범위를 지정
+display: inline
+
+속성 | 의미 | 값 
+--- | --- | ---
+cite | 변경을 설명하는 리소스의 URL | URL
+datetime | 변경이 일어난 유요한 날짜 문자 | Date
